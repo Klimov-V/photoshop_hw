@@ -7,7 +7,7 @@ html {
 
 body {
   margin: 0;
-  padding-top: 120px;
+  padding: 100px 20px;
   background-color: #121116;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -18,16 +18,27 @@ body {
   max-width: 600px;
   text-align: center;
 }
+
+/* h1 {
+  margin: 0;
+} */
   
 a {
   text-decoration: none;
   transition: all 0.1s ease-in;
+  display: block;
+}
+
+.logo {
+  padding: 25px;
 }
 
 .title {
   overflow: hidden;
   font-size: 2rem;
-  margin-top: 55px;
+  padding: 25px;
+  text-transform: uppercase;
+  margin: 0;
 }
 .title:after {
   content: "";
@@ -62,8 +73,9 @@ a {
 }
 
 
-.footer {
-  margin-top: 90px;
+.copyright {
+  display: inline-block;
+  padding: 90px;
   font-weight: 600;
   font-size: 1.5rem;
 }
